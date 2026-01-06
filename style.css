@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #f8fafc;
+}
+
+/* Buttons */
+.add-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #22c55e;
+  color: #022c22;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background: #16a34a;
+}
+
+/* ROOT */
+.schools-root {
+  background: #020617;
+  padding: 20px;
+  border: 2px solid #475569;
+  border-radius: 12px;
+}
+
+.schools-header,
+.school-header,
+.standard-header,
+.class-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SCHOOL */
+.school-box {
+  background: #020617;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 6px solid #22d3ee;
+  border-radius: 10px;
+}
+
+/* STANDARD */
+.standard-box {
+  background: #020617;
+  padding: 15px;
+  margin-top: 12px;
+  border-left: 6px solid #38bdf8;
+  border-radius: 10px;
+}
+
+/* CLASS */
+.class-box {
+  background: #020617;
+  padding: 15px;
+  margin-top: 12px;
+  border-left: 6px solid #f59e0b;
+  border-radius: 10px;
+}
+
+/* STUDENT FORM */
+.student-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.student-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #f8fafc;
+}
+
+.student-form input::placeholder {
+  color: #94a3b8;
+}
+
+/* STUDENT CARDS */
+.students-cards {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.student-card {
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.student-card h6 {
+  margin: 0 0 6px;
+  color: #38bdf8;
+}
+
+.student-card p {
+  margin: 2px 0;
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+/* Indentation for clarity */
+.standards-container,
+.classes-container {
+  margin-left: 12px;
+}
